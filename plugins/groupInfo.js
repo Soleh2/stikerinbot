@@ -37,7 +37,7 @@ ${groupMetadata.desc}
 ${participants.length} Anggota
 
 *Pembuat Grup:* 
-@${ownergc.split`@`[0]}
+@${m.chat.split`-`[0]}
 
 *Admin Grup:*
 ${listAdmin}
